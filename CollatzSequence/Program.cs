@@ -9,11 +9,15 @@ namespace CollatzSequence
             Console.WriteLine("Type a number: ");
             String input = Console.ReadLine();
             int n = int.Parse(input);
-            while ( n > 1)
+            while ( n >= 1)
             {   Console.WriteLine(n);
                 if (n % 2 == 0)
                 {
                     n /= 2;
+                }
+                else if (n == 1)
+                {
+                    n--;
                 }
                 else
                 {
