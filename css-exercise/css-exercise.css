@@ -1,0 +1,39 @@
+#fox 
+{
+    border-width: 15px;
+    border-color: orange;
+    width: 500px;
+    height: 200px;
+    position: relative;
+}
+
+body
+{
+    
+    background-color: lightgoldenrodyellow;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+.paragraphcontainer
+{
+    border-width: 10px;
+    border-style: dashed;
+    border-color: orange;
+    background-color: yellow;
+    scrollbar-width: 5px;
+    width: 60%;
+}
+
+#underlinedtext
+{
+    text-underline-position: below;
+    font-weight: bolder;
+}
+#background
+{
+    border-width: 8px;
+    border-color: orangered;
+
+}
