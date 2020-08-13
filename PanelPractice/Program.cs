@@ -52,7 +52,7 @@ namespace PanelPractice
                 {
                     right--;
                 }
-                if(left < right)
+                if(left < right) 
                 {
                     if(arr[left] == arr[right]) return right;
 
